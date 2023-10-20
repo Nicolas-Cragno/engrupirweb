@@ -1,0 +1,545 @@
+/*
+COLORES:
+NEGRO P/ FONDO: #000000
+FONDO SECTION: #151313
+FONDO MUSIC: #272828
+FONDO CONTACT: #171717
+
+BLANCO LETRAS: #FFF
+GRIS CITA: #BDBDBD
+TIPOGRAFIA CLARA/HOVER: #E2E2CC
+
+LOGOS: #ff8097
+
+INSTAGRAM: #ff6961
+SOUNDCLOUD: aliceblue
+WHATSAPP: #77dd77
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Modern No. 20', sans-serif;
+                                                
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/* BARRA DE NAVEGACIÓN INICIO */
+
+.navbar a {
+    display: block;
+    padding: 20px;
+    color: #E2E2CC;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #E2E2CC;
+    color: #000000;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 210px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-195px;
+    top:0px;
+    left: 95px;
+}
+
+/* BARRA DE NAVEGACIÓN FINAL */
+
+/* LOGO PRINCIPAL INICIO */
+.logo {
+    display: flex;
+    margin-left: 210px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.logo a img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* LOGO PRINCIPAL FINAL */
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cover{
+    height: 100vh !important;
+    background: url(./img/background.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.teSuena {
+    height: 100vh !important;
+    background: url(./img/guitar2.png) no-repeat center;
+    background-size: cover;
+}
+
+.notaHistoria {
+    height: 100vh !important;
+    background: url(./img/acidHouse3.jpg) no-repeat center;
+    background-size: cover;
+}
+.notaHistoria2 {
+    height: 100vh !important;
+    background: url(./img/acidHouse4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.notaOferta {
+    height: 100vh !important;
+    background: url(./img/background.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artOphelia{
+    height: 100vh !important;
+    background: url(./img/opheliaLiuGalery/Ophelia1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artOphelia2{
+    height: 100vh !important;
+    background: url(./img/opheliaLiuGalery/Ophelia10.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artOphelia3{
+    height: 100vh !important;
+    background: url(./img/opheliaLiuGalery/Ophelia11.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artOphelia4{
+    height: 100vh !important;
+    background: url(./img/opheliaLiuGalery/Ophelia12.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artToto{
+    height: 100vh !important;
+    background: url(./img/totoTatuerGalery/Toto10.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artToto2{
+    height: 100vh !important;
+    background: url(./img/totoTatuerGalery/Toto9.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.artGiovanni{
+    height: 100vh !important;
+    background: url(./img/background.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.onMySection {
+    height: 100vh !important;
+    background: url(./img/microback.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.onMySection li {
+    list-style: none;
+}
+
+.onMySection li a {
+    display: flex;
+    text-decoration: none;
+}
+
+.onMySection a {
+    margin-left: -25%;
+    text-decoration: none;
+}
+
+
+.onMySection .soundc:hover {
+    background-color: aliceblue;
+}
+
+.onMyList {
+    text-align: center;
+    background-color: red;
+    justify-content: flex;
+}
+
+
+.onMySection .redlogo {
+    height: 2rem;
+    width: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 30%;
+    color: #FFF;
+    background: #E2E2CC;
+    font-size: 2rem;
+    margin-left: 25%;
+}
+
+.cover .backlogo {
+    height: 400px;
+}
+
+
+/* Secciones INICIO */
+.about {
+    height: 100vh !important;
+    background-color: #000000;
+    background-size: cover;
+}
+
+.about h2 {
+    color: #E2E2CC;
+}
+
+.teSuena {
+    height: 100vh !important;
+    background-color: #000000;
+    background-size: cover;
+}
+
+
+.title {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 100px;
+    justify-content: justify;
+}
+
+.pfrase{
+    margin-top: 33px;
+    font-size: 18px;
+    justify-content: justify;
+}
+
+.pcita {
+    font-size: 15px;
+    color: #BDBDBD;
+    justify-content: justify;
+}
+
+.ptexto {
+    font-size: 17px;
+    color:#E2E2CC;
+    justify-content: justify;
+}
+
+.ptextoprincipal::first-letter {
+    font-size: 50px;
+
+}
+
+.pfragmento {
+    font-size: 17px;
+    color: #BDBDBD;
+    justify-content: justify;
+}
+
+.imgNota1 {
+    padding-right: 50px;
+}
+
+.imgNota2 {
+    padding-right: 0px;
+}
+
+.imgNota3 {
+    padding-right: 0px;
+}
+
+.col-md-7 {
+    margin-left: -95px;
+}
+
+h5 {
+    font-size: 50px;
+    background-color: #000000;
+}
+
+h5:hover {
+    background-color: #FFF;
+    color: #000000;
+}
+
+.member:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section {
+    padding: 30px;
+    background: #222222
+}
+
+.galery {
+    padding: 30px;
+    background: #151313
+}
+
+.music {
+    padding: 30px;
+    background-color: #222222;
+}
+
+.carrouselgalery{
+    padding: 30px;
+    background-color: #000000;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 13rem;
+    width: 17rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 3rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .9);
+    margin: 2rem;   
+}
+
+.box-container .box .minilogo {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFF;
+    background: #ff8097;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .boxartist {
+    height: 24rem;
+    width: 28rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 3rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .9);
+    margin: 2rem;   
+}
+
+.box-container .boxartist .artistlogo{
+    height: 15rem;
+    width: 15rem;
+    line-height: 15rem;
+    text-align: center;
+    border-radius: 5%;
+    color: #FFF;
+    background: #ff8097;
+    font-size: 15rem;
+    margin-top: 2rem;
+}
+
+.box-container .boxartist h2{
+    font-size: 25px;
+    color: #FFF;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #ff8097;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.music {
+    background: #272828;
+}
+
+.music img {
+    height: 30rem;
+    width: 15rem;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.contact .redlogo {
+    height: 2rem;
+    width: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 30%;
+    color: #FFF;
+    background: #E2E2CC;
+    font-size: 2rem;
+    margin-left: 25%;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.contact li a {
+    display: flex;
+    text-decoration: none;
+}
+
+.contact li a p {
+    margin-left: -25%;
+    text-decoration: none;
+}
+
+.contact h3 {
+    color: red;
+}
+
+.contact .insta:hover {
+    background-color: #ff6961;
+}
+
+.contact .soundc:hover {
+    background-color: aliceblue;
+}
+
+.contact .wpp:hover {
+    background-color: #77dd77;
+}
+
+
+/*      NOTAS       */
+
+.interview{
+    height: 100vh !important;
+    background: url(./img/engruback.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.inters{
+    margin-top: 160px;
+}
+
+.interview h2 {
+    color: #E2E2CC;
+}
+
+
+/*      /NOTAS      */
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
